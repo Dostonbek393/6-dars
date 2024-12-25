@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  background-color: rgba(28, 28, 28, 1);
+  height: 100%;
+  font-family: $main-ff;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 1);
+}
+
+img {
+  display: flex;
+  object-fit: cover;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+h1 {
+  @include fontSetting(3.6rem, 600, 1.2);
+}
+
+h2 {
+  @include fontSetting(1.8rem, 600, 1.2);
+}
+
+h3 {
+  @include fontSetting(1.8rem, 500, 1.2);
+}
+
+h4 {
+  @include fontSetting(1.6rem, 400, 1.2);
+}

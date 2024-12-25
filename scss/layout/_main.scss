@@ -1,0 +1,530 @@
+.sitenav {
+  &__container {
+    background-image: url("../../images/Component\ 13.png");
+    background-repeat: no-repeat;
+    width: 120rem;
+    height: 50rem;
+    margin-top: 2rem;
+    position: relative;
+  }
+
+  &__sss {
+    padding-top: 46.7rem;
+  }
+
+  &__item {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    width: 60rem;
+    height: 6.6rem;
+    border-radius: 10rem;
+    gap: 25.6rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__text {
+    color: rgba(85, 85, 85, 1);
+    @include fontSetting(1.8rem, 500, 1.2);
+    padding-left: 3rem;
+  }
+
+  &__images {
+    padding-right: 4px;
+    object-fit: cover;
+  }
+}
+
+.car {
+  &__container {
+    margin-top: 10rem;
+  }
+  &__text {
+    @include fontSetting(3.6rem, 600, 1.2);
+    text-align: center;
+  }
+  &__texts {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    width: 57.5rem;
+    height: 4.8rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  &__item {
+    display: flex;
+    gap: 1.6rem;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  &__one {
+    width: 15.5rem;
+    height: 5.8rem;
+    background-color: rgba(41, 151, 100, 1);
+    border-radius: 10rem;
+    padding: 1.9rem 4rem;
+  }
+
+  &__title {
+    color: rgba(255, 255, 255, 1);
+    @include fontSetting(1.8rem, 500, 1.2);
+  }
+  &__two {
+    width: 17rem;
+    height: 5.8rem;
+    border-radius: 10rem;
+    padding: 1.9rem 3rem;
+    border: 1.5px solid rgba(51, 51, 51, 1);
+  }
+  &__seven {
+    width: 12rem;
+    height: 5.8rem;
+    border-radius: 10rem;
+    padding: 1.9rem 4rem;
+    border: 1.5px solid rgba(51, 51, 51, 1);
+  }
+}
+
+.cars {
+  &__1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.4rem;
+  }
+  &__one {
+    width: 38.7rem;
+    height: 43.3rem;
+    background-color: rgba(39, 39, 39, 1);
+    border-radius: 1.6rem;
+    padding-left: 2.4rem;
+  }
+  &__text {
+    margin-top: 3rem;
+    @include fontSetting(1.8rem, 600, 1.2);
+  }
+  &__texts {
+    margin-top: 8px;
+    @include fontSetting(1.6rem, 500, 1.2);
+  }
+  &__imge {
+    margin-top: 1.6rem;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 6.6rem;
+    margin-top: 1.6rem;
+  }
+  &__items {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  &__textss {
+    display: flex;
+    align-items: center;
+  }
+  &__itemss {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  &__item1 {
+    display: flex;
+    align-items: center;
+    margin-top: 2.4rem;
+    gap: 5.4rem;
+  }
+  &__items1 {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  &__itemss1 {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  &__2 {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__10 {
+    width: 17.3rem;
+    height: 5.8rem;
+    background-color: rgba(41, 151, 100, 1);
+    border-radius: 10rem;
+    padding: 1.8rem 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    justify-content: center;
+  }
+  &__11 {
+    @include fontSetting(1.8rem, 500, 1.2);
+  }
+}
+
+.hero {
+  background-color: rgba(39, 39, 39, 1);
+  margin-top: 16rem;
+
+  &__container {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    border: 1px solid transparent;
+  }
+  &__item {
+    background-color: rgba(28, 28, 28, 1);
+    border-radius: 2rem 0 0 2rem;
+    width: 47rem;
+    height: 47.9rem;
+  }
+
+  &__hero7 {
+    display: flex;
+    gap: 2rem;
+  }
+
+  &__items {
+    background-color: rgba(41, 151, 100, 1);
+    border-radius: 0 2rem 2rem 0;
+    width: 73rem;
+    height: 47.9rem;
+  }
+  &__active {
+    width: 120rem;
+    height: 47.9rem;
+    display: flex;
+  }
+  &__one {
+    display: flex;
+    gap: 8px;
+  }
+  &__item {
+    padding: 7rem;
+  }
+
+  &__text {
+    color: rgba(66, 133, 244, 1);
+    @include fontSetting(1.8rem, 500, 1.2);
+  }
+
+  &__texts {
+    font-weight: 500;
+    font-size: 3.8rem;
+    line-height: 1.3;
+    width: 32rem;
+    height: 15rem;
+    margin-bottom: 3rem;
+  }
+
+  &__border {
+    width: 32rem;
+    height: 2px;
+    background-color: #ea4335;
+  }
+
+  &__textss {
+    @include fontSetting(1.6rem, 400, 1.2);
+    margin-top: 3rem;
+  }
+
+  &__button {
+    width: 19.4rem;
+    height: 5.8rem;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10rem;
+    border: 1.5px solid #ee2a7b;
+    margin-top: 1.6rem;
+  }
+
+  &__text-one {
+    color: #ee2a7b;
+    @include fontSetting(1.8rem, 500, 1.2);
+    padding: 1.8rem 5rem;
+  }
+
+  &__item1 {
+    width: 42rem;
+    height: 33.3rem;
+    background-color: rgba(28, 28, 28, 1);
+    border-radius: 1.6rem;
+    margin-top: 5rem;
+    margin-left: 4rem;
+    padding-top: 2.4rem;
+    padding-left: 2.4rem;
+  }
+
+  &__item2 {
+    width: 27rem;
+    height: 33.3rem;
+    border-radius: 1.6rem 0 0 1.6rem;
+    background-color: rgba(28, 28, 28, 1);
+    margin-top: 5rem;
+    padding-top: 2.4rem;
+    padding-left: 2.4rem;
+  }
+  &__1 {
+    display: flex;
+  }
+
+  &__text1 {
+    margin-right: 10px;
+  }
+
+  &__text7 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.2;
+  }
+  &__text77 {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.1;
+  }
+  &__images {
+    margin-right: 1.2rem;
+  }
+
+  &__text5 {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-top: 1.4rem;
+    width: 37.2rem;
+    height: 16rem;
+    border-bottom: 1.5px solid rgba(51, 51, 51, 1);
+    padding-bottom: 2.5rem;
+  }
+
+  &__title {
+    margin-top: 2.4rem;
+    display: flex;
+    gap: 1.6rem;
+  }
+  &__image7 {
+    object-fit: cover;
+  }
+  &__2 {
+    display: flex;
+    gap: 1.2rem;
+  }
+  &__text3 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.2;
+  }
+  &__text4 {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.1;
+  }
+
+  &__heros {
+    gap: 5px;
+  }
+  &__p {
+    margin-top: 1.4rem;
+    width: 21rem;
+    height: 8rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+
+  &__two {
+    margin-top: 8rem;
+    display: flex;
+    border-top: 1.5px solid rgba(51, 51, 51, 1);
+    padding-top: 2.4rem;
+  }
+  &__text0 {
+    margin-left: 2px;
+  }
+
+  &__five {
+    display: flex;
+    gap: 2rem;
+    margin-left: 4rem;
+    margin-top: 3.7rem;
+    align-items: center;
+  }
+
+  &__hero {
+    display: flex;
+    gap: 1.2rem;
+  }
+}
+
+.name {
+  &__container {
+    margin-top: 16rem;
+  }
+  &__text {
+    @include fontSetting(1.8rem, 500, 1.2);
+  }
+  &__image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3.4rem;
+  }
+}
+
+.service {
+  &__text {
+    margin-top: 16rem;
+    text-align: center;
+    @include fontSetting(3.6rem, 600, 1.2);
+  }
+  &__texts {
+    @include fontSetting(1.6rem, 400, 1.2);
+    text-align: center;
+    width: 68.4rem;
+    height: 4.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__title {
+    width: 59rem;
+    height: 21.6rem;
+    background-color: rgba(39, 39, 39, 1);
+    border-radius: 2rem;
+    padding-left: 3.2rem;
+    display: flex;
+  }
+
+  &__1 {
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 1.2;
+    width: 21.1rem;
+    height: 7.8rem;
+  }
+  &__2 {
+    @include fontSetting(1.6rem, 400, 1.2);
+    width: 35.4rem;
+    height: 4.8rem;
+  }
+  &__image {
+    width: 6rem;
+    height: 6rem;
+    object-fit: contain;
+    margin-top: 4rem;
+    margin-left: 10rem;
+  }
+
+  &__3 {
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 1.2;
+    width: 28.8rem;
+    height: 7.8rem;
+  }
+  &__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  &__titles {
+    width: 59rem;
+    height: 21.6rem;
+    background-color: rgba(39, 39, 39, 1);
+    border-radius: 2rem;
+    padding-left: 3.2rem;
+    display: flex;
+  }
+  &__4 {
+    width: 27.8rem;
+    height: 7.8rem;
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 1.2;
+  }
+}
+
+.safes {
+  display: flex;
+  background-color: rgba(28, 28, 28, 1);
+  border: 1.5px solid rgba(51, 51, 51, 1);
+  border-radius: 2rem;
+  width: 120rem;
+  height: 50rem;
+  margin-top: 16rem;
+  padding-left: 3.2rem;
+  background-image: url("../../images/Ellipse\ 125.png");
+  background-repeat: no-repeat;
+  background-position: top 3rem right 11.3rem;
+  margin-bottom: 16rem;
+}
+
+.safe {
+  &__text {
+    @include fontSetting(3.6rem, 600, 1.2);
+    margin-top: 4rem;
+  }
+  &__texts {
+    @include fontSetting(1.6rem, 400, 1.2);
+    width: 59rem;
+    height: 12rem;
+  }
+  &__item {
+    display: flex;
+    gap: 1rem;
+    margin-top: 9.4rem;
+  }
+  &__1 {
+    width: 20rem;
+    height: 16rem;
+    background-color: rgba(39, 39, 39, 1);
+    border-radius: 1.6rem;
+  }
+  &__image {
+    padding-left: 15rem;
+    padding-top: 2rem;
+  }
+  &__title {
+    margin-left: 1.5rem;
+    margin-top: 2.9rem;
+    width: 17rem;
+    height: 6.6rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.2;
+  }
+  &__2 {
+    width: 20rem;
+    height: 16rem;
+    background-color: rgba(39, 39, 39, 1);
+    border-radius: 1.6rem;
+  }
+  &__3 {
+    width: 20rem;
+    height: 16rem;
+    background-color: rgba(39, 39, 39, 1);
+    border-radius: 1.6rem;
+  }
+  &__images {
+    margin-left: 9.2rem;
+    width: 38.6rem;
+    height: 45.2rem;
+    margin-top: 4.5rem;
+  }
+}

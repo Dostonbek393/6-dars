@@ -1,0 +1,57 @@
+.header {
+  border-bottom: 1.5px solid rgba(51, 51, 51, 1);
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.7rem;
+    margin-bottom: 2.7rem;
+    align-items: center;
+  }
+
+  &__one {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  &__text {
+    @include fontSetting(1.8rem, 500, 1.2);
+  }
+
+  &__title {
+    @include fontSetting(1.8rem, 600, 1.2);
+    background-color: rgba(28, 28, 28, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+  }
+
+  &__two {
+    display: flex;
+    align-items: center;
+  }
+
+  &__textss {
+    margin-right: 2.4rem;
+    @include fontSetting(1.8rem, 600, 1.2);
+  }
+
+  &__images {
+    margin-right: 1.6rem;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 14.2rem;
+    height: 5.8rem;
+    background-color: rgba(41, 151, 100, 1);
+    border-radius: 10rem;
+    padding: 1.8rem 1.8rem 1.8rem 3rem;
+  }
+
+  &__texts {
+    @include fontSetting(1.8rem, 500, 1.2);
+  }
+}

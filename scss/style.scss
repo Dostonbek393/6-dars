@@ -1,0 +1,23 @@
+@import "utils/verilabes";
+@import "utils/mixins";
+@import "base/typography";
+// Vendors
+@import "vendors/normalize";
+
+// Base
+@import "base/reset";
+
+// Utilities
+@import "utils/functions";
+
+// Components
+@import "components/buttons";
+
+// Layout
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+
+// Pages
+@import "pages/home";
+@import "pages/contact";
