@@ -356,14 +356,44 @@ html {
   height: 100%;
 }
 
+:root {
+  --primary-color: #00b894;
+  --secondary-color: #ffffff;
+  --background-color: #121212;
+  --card-background-color: #1e1e1e;
+  --text-color: #dfe6e9;
+  --muted-text-color: #636e72;
+  --border-color: #2d2d2d;
+  --hover-color: #019a76;
+  --link-color: #74b9ff;
+  --footer-background: #181818;
+  --slate-color: rgb(39, 39, 39);
+  --header-title: rgb(28, 28, 28);
+}
+
 body {
-  background-color: rgb(28, 28, 28);
   height: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.5;
-  color: rgb(255, 255, 255);
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+body.light-mode {
+  --primary-color: #00b894;
+  --secondary-color: #000000;
+  --background-color: #ffffff;
+  --card-background-color: #f9f9f9;
+  --text-color: #2d3436;
+  --muted-text-color: #636e72;
+  --border-color: #e0e0e0;
+  --hover-color: #019a76;
+  --link-color: #0984e3;
+  --footer-background: #f1f1f1;
+  --slate-color: rgb(245, 245, 245);
+  --header-title: #ffffff;
 }
 
 img {
@@ -433,8 +463,8 @@ h4 {
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.2;
-  background-color: rgb(28, 28, 28);
-  color: rgb(255, 255, 255);
+  background-color: var(--header-title);
+  color: var(--secondary-color);
   border: none;
 }
 .header__two {
@@ -446,9 +476,7 @@ h4 {
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.2;
-}
-.header__images {
-  margin-right: 1.6rem;
+  color: var(--text-color);
 }
 .header__item {
   display: flex;
@@ -464,6 +492,18 @@ h4 {
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 1.2;
+  color: #fff;
+}
+.header__themeToggler {
+  background-color: var(--slate-color);
+  border-radius: 50%;
+  padding: 2.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 1.6rem;
+  border: 1px solid transparent;
 }
 
 .sitenav__container {
@@ -489,7 +529,6 @@ h4 {
   margin-right: auto;
 }
 .sitenav__text {
-  color: rgb(85, 85, 85);
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 1.2;
@@ -538,7 +577,7 @@ h4 {
   padding: 1.9rem 4rem;
 }
 .car__title {
-  color: rgb(255, 255, 255);
+  color: var(--text-color);
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 1.2;
@@ -566,7 +605,7 @@ h4 {
 .cars__one {
   width: 38.7rem;
   height: 43.3rem;
-  background-color: rgb(39, 39, 39);
+  background-color: var(--card-background-color);
   border-radius: 1.6rem;
   padding-left: 2.4rem;
 }
@@ -644,7 +683,7 @@ h4 {
 }
 
 .hero {
-  background-color: rgb(39, 39, 39);
+  background-color: var(--card-background-color);
   margin-top: 16rem;
 }
 .hero__container {
@@ -653,7 +692,7 @@ h4 {
   border: 1px solid transparent;
 }
 .hero__item {
-  background-color: rgb(28, 28, 28);
+  background-color: var(--border-color);
   border-radius: 2rem 0 0 2rem;
   width: 47rem;
   height: 47.9rem;
@@ -723,7 +762,7 @@ h4 {
 .hero__item1 {
   width: 42rem;
   height: 33.3rem;
-  background-color: rgb(28, 28, 28);
+  background-color: var(--border-color);
   border-radius: 1.6rem;
   margin-top: 5rem;
   margin-left: 4rem;
@@ -734,7 +773,7 @@ h4 {
   width: 27rem;
   height: 33.3rem;
   border-radius: 1.6rem 0 0 1.6rem;
-  background-color: rgb(28, 28, 28);
+  background-color: var(--border-color);
   margin-top: 5rem;
   padding-top: 2.4rem;
   padding-left: 2.4rem;
@@ -864,7 +903,7 @@ h4 {
 .service__title {
   width: 59rem;
   height: 21.6rem;
-  background-color: rgb(39, 39, 39);
+  background-color: var(--card-background-color);
   border-radius: 2rem;
   padding-left: 3.2rem;
   display: flex;
@@ -907,7 +946,7 @@ h4 {
 .service__titles {
   width: 59rem;
   height: 21.6rem;
-  background-color: rgb(39, 39, 39);
+  background-color: var(--card-background-color);
   border-radius: 2rem;
   padding-left: 3.2rem;
   display: flex;
@@ -922,7 +961,7 @@ h4 {
 
 .safes {
   display: flex;
-  background-color: rgb(28, 28, 28);
+  background-color: var(--card-background-color);
   border: 1.5px solid rgb(51, 51, 51);
   border-radius: 2rem;
   width: 120rem;
@@ -956,7 +995,7 @@ h4 {
 .safe__1 {
   width: 20rem;
   height: 16rem;
-  background-color: rgb(39, 39, 39);
+  background-color: var(--card-background-color);
   border-radius: 1.6rem;
 }
 .safe__image {
@@ -975,13 +1014,13 @@ h4 {
 .safe__2 {
   width: 20rem;
   height: 16rem;
-  background-color: rgb(39, 39, 39);
+  background-color: var(--card-background-color);
   border-radius: 1.6rem;
 }
 .safe__3 {
   width: 20rem;
   height: 16rem;
-  background-color: rgb(39, 39, 39);
+  background-color: var(--card-background-color);
   border-radius: 1.6rem;
 }
 .safe__images {

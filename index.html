@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home page</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -34,16 +34,21 @@
         </div>
 
         <div class="header__two">
-          <p class="header__textss">+1 855 420 0000</p>
-          <img
-            class="header__images"
-            src="./images/Dark mode.svg"
-            alt=""
-            width="58"
-            height="58"
-          />
+          <a class="header__textss" href="tel:+1 855 420 0000"
+            >+1 855 420 0000</a
+          >
+
+          <button id="themeToggler" class="header__themeToggler">
+            <img
+              id="header__themeToggler__image"
+              src="./images/Icon.sun.svg"
+              alt=""
+              width="15"
+              height="15"
+            />
+          </button>
           <div class="header__item">
-            <h2 class="header__texts">Login</h2>
+            <a class="header__texts" href="#">Login</a>
             <img
               class="header__images-icon"
               src="./images/Icon7.svg"
@@ -747,17 +752,18 @@
                 </div>
               </div>
 
-              <img
-                class="footer1__image1"
-                src="./images/Scroll up.svg"
-                alt=""
-                width="70"
-                height="70"
-              />
+              <a href="#">
+                <img
+                  class="footer1__image1"
+                  src="./images/Scroll up.svg"
+                  alt=""
+              /></a>
             </div>
           </div>
         </div>
       </div>
     </footer>
+
+    <script src="./js/app.js"></script>
   </body>
 </html>

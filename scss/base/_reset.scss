@@ -20,14 +20,22 @@ html {
   height: 100%;
 }
 
+:root {
+  @include theme(dark);
+}
+
 body {
-  background-color: rgba(28, 28, 28, 1);
   height: 100%;
   font-family: $main-ff;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.5;
-  color: rgba(255, 255, 255, 1);
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+body.light-mode {
+  @include theme(light);
 }
 
 img {

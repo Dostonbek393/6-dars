@@ -8,7 +8,11 @@ $dark-muted-text-color: #636e72; // Muted text (secondary text)
 $dark-border-color: #2d2d2d; // Border for cards and sections
 $dark-hover-color: #019a76; // Button hover effect
 $dark-link-color: #74b9ff; // Link color
-$dark-footer-background: #181818; // Footer background
+$dark-footer-background: #181818;
+$dark-slate-color: rgba(39, 39, 39, 1);
+$dark-header-title: rgba(28, 28, 28, 1);
+
+// Footer background
 
 // Variables for light mode
 $light-primary-color: #00b894; // Green (buttons, highlights)
@@ -22,3 +26,5 @@ $light-hover-color: #019a76; // Button hover effect
 $light-link-color: #0984e3; // Link color
 $light-footer-background: #f1f1f1; // Footer background
 $main-ff: "Montserrat", sans-serif;
+$light-slate-color: rgba(245, 245, 245, 1);
+$light-header-title: #ffffff;
